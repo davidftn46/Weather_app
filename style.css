@@ -12,8 +12,8 @@ body{
 
 .card{
     width: 90%;
-    max-width: 470px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    max-width: 600px;
+    background: linear-gradient(135deg, rgb(134, 126, 126), rgb(74, 2, 2));
     color: #fff;
     margin: 100px auto 0px;
     border-radius: 20px;
@@ -68,14 +68,13 @@ body{
 .weather h2{
     font-size: 45px;
     font-weight: 400;
-    margin-top: -10px;
+    margin-top: 5px;
 }
 
 .details{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 20px;
     margin-top: 50px;
 }
 
@@ -83,14 +82,29 @@ body{
     display: flex;
     align-items: center;
     text-align: left;
+
 }
+
+.col:nth-child(2) {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 
 .col img{
     width: 40px;
     margin-right: 10px;
 }
 
-.humidity, .wind{
+.col:nth-child(2) img{
+    height: 50px;
+}
+
+.col:nth-child(3) img{
+    height: 53px;
+}
+
+.humidity, .wind, .pressure{
     font-size: 28px;
     margin-top: -6px;
 }
