@@ -1,4 +1,4 @@
-const apiKey = "224e31d17eaf03078f604d38cc40c664";
+const apiKey = "224e31d17eaf03078f604d38cc40c664";   ////--->  this key has been deactivated for security reasons, it is here only as an example
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
 
 const searchBox = document.querySelector(".search input");
